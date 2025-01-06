@@ -1,0 +1,83 @@
+.full-screen-image {
+  display: block; /* Ensures the image is treated as a block element */
+  width: 100vw; /* Full viewport width */
+  height: calc(100vh - 60px); /* Full viewport height minus header height (adjust the 60px value to match your header's height) */
+  object-fit: cover; /* Ensures the image covers the area without losing aspect ratio */
+  margin-top: -4px; /* Adjust margin if there's unwanted space */
+  border: 2px solid black;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items:right;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+}
+
+.before, .after {
+  display: flex;
+  align-items:right;
+  gap: 10px; /* Adjust the spacing between items as needed */
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
